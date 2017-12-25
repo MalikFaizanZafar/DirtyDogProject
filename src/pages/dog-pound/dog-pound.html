@@ -6,13 +6,47 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>DogPound</ion-title>
+  <ion-navbar color="primary">
+    <ion-title><span id="title">Dirty Dog Tracker</span></ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-10 offset-1></ion-col>
+    </ion-row>
+  </ion-grid><br>
+  <ion-item item-start>
+    <ion-icon name="ios-heart-outline"></ion-icon>&nbsp;<span class="dpcount">80</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ion-icon name="ios-chatboxes-outline"></ion-icon>&nbsp;<span class="dpcount">100</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ion-icon name="ios-git-merge-outline" style="transform: rotate(300deg);" right></ion-icon>
+  </ion-item><br>
+  <ion-item>
+    <ion-label>Type</ion-label>
+    <ion-select>
+      <ion-option selected>Good Dogs</ion-option>
+      <ion-option>Bad Dogs</ion-option>
+    </ion-select>
+  </ion-item><br>
+  <ion-col col-12>
+        <span style="font-size : 12px;">Top Dogs</span><br>
+      </ion-col>
+      <ion-row>
+          <button ion-button color="light">Married Dogs</button>
+      </ion-row>
 
+      <ion-row>
+          <button ion-button color="light">Single Dogs</button>
+      </ion-row>
+
+      <ion-row>
+          <button ion-button color="light">Divorced Dogs</button>
+      </ion-row>
 </ion-content>

@@ -1,17 +1,17 @@
 page-search {
   .list{
     margin-top: 15px;
-    box-shadow: 1px #DCDCDC;
   }
   .scroll-content {
     overflow: hidden;
   }
   .item{
      min-height: 1.5rem;
+     box-shadow: 1px 1px 1px 1px #DCDCDC;
   }
   .item-block{
     height: 30px;
-    box-shadow: 1px #DCDCDC;
+    box-shadow: 1px 1px 1px 1px #DCDCDC;
   }
   .label{
     font-size: 10px;
