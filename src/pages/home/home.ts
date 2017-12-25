@@ -6,17 +6,12 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
+  tabBarElement: any;
   constructor(public navCtrl: NavController) {
-
+    this.tabBarElement = document.querySelector('.tabbar');
   }
-  ionViewWillLoad(){
-    let elements = document.querySelectorAll(".tabbar");
-
-    if (elements != null) {
-        Object.keys(elements).map((key) => {
-            elements[key].style.display = 'block';
-        });
-    }
+  ionViewWillEnter(){
+    this.tabBarElement.style.display = 'flex';
   }
 
 }
