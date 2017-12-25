@@ -4,9 +4,13 @@ page-login {
         background-position: center;
         background-size: contain;
         color: white;
+        zoom : 0.8;
+      }
+      .scroll-content {
+        overflow: hidden;
       }
       ion-grid   {
-        height: 35px;
+        height: 25px;
         background-image: url('../assets/imgs/DirtyDogTracker.png');
         background-position: center;
         background-size: contain;
@@ -16,17 +20,35 @@ page-login {
        ion-input{
          background-color: #191919;
          opacity : 0.75;
-         width: 300px;
+         width: 330px;
          text-align: center;
          color: white;
+         margin-left: 10px;
+         font-weight: bold;
        }
+       ion-radio{
+         margin-left: 10px;
+         color: white;
+       }
+       .text-input-md {
+          text-align: center;
+          font-weight: bold;
+        }
+        .text-input-ios {
+           text-align: center;
+           font-weight: bold;
+         }
        form{
          margin-top: 100px;
          position: fixed;
          margin-left: 10px;
        }
        button{
-         width: 300px;
+         width: 360px;
+       }
+       span{
+         font-size: 14px;
+         font-weight: normal;
        }
        #rememberme{
          color: white;

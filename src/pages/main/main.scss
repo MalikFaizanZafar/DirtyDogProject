@@ -4,22 +4,26 @@ page-main {
      background-position: center;
      background-size: contain;
   }
-  ion-grid{
-    height: 35px;
+  .scroll-content {
+    overflow: hidden;
+  }
+  #grid1{
+    height: 25px;
     background-image: url('../assets/imgs/DirtyDogTracker.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 35%;
    }
-  .btn1{
-   margin-top: 100%;
-   font-weight: normal;
+   .buttons{
+     margin-top: 230px;
    }
-  .btn2{
-  font-weight: normal;
-  margin-bottom: 0;
- }
+   button{
+     width: 280px;
+   }
+   span{
+     font-size: 12px;
+   }
  p{
   color: white;
   font-weight: normal;
