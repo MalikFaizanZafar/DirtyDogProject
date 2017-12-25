@@ -1,0 +1,25 @@
+
+<ion-content padding ion-fixed>
+  <ion-icon name="arrow-round-back" style="zoom:1.5; color:white; font-weight:normal;" (click)="toMainPage()"></ion-icon>
+  <ion-grid>
+      <ion-row col-12></ion-row>
+  </ion-grid>
+
+    <form (ngSubmit)="logForm()">
+      <ion-list>
+
+          <ion-input name="username" type="text" placeholder="User Name"></ion-input>
+         <br>
+          <ion-input name="password" type="password" placeholder="Password"></ion-input> <br>
+          <ion-radio color="primary">Remember Me</ion-radio>&nbsp;<span id='rememberme'>Remember Me</span>
+
+      </ion-list> <br><br><br>
+      <button ion-button type="submit" (click)="toHomePage()">LOG IN</button>
+    </form> <br>
+
+    <ion-footer style="margin-bottom: 10px;">
+      <p offset-5> &nbsp; &nbsp; OR</p>
+      <button ion-button style="margin-left: 30px;" color="blue"> Connect With Facebook</button>
+    </ion-footer>
+
+</ion-content>

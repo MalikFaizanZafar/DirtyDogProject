@@ -1,0 +1,34 @@
+page-login {
+      ion-content {
+        background-image: url('../assets/imgs/page1-bg.png');
+        background-position: center;
+        background-size: contain;
+        color: white;
+      }
+      ion-grid   {
+        height: 35px;
+        background-image: url('../assets/imgs/DirtyDogTracker.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 35%;
+       }
+       ion-input{
+         background-color: #191919;
+         opacity : 0.75;
+         width: 300px;
+         text-align: center;
+         color: white;
+       }
+       form{
+         margin-top: 100px;
+         position: fixed;
+         margin-left: 10px;
+       }
+       button{
+         width: 300px;
+       }
+       #rememberme{
+         color: white;
+       }
+}
