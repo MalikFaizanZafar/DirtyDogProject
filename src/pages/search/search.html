@@ -7,51 +7,52 @@
 </ion-header>
 
 
-<ion-content padding>
-  <form >
+<ion-content padding overflow-scroll=false>
+  <form>
+    <ion-list>
       <ion-item>
-        <ion-label>Cell Number</ion-label>
-        <ion-input type="text"  name="cellNumber"></ion-input>
-      </ion-item> <br>
-      <ion-item>
-        <ion-label>Email</ion-label>
-        <ion-input  name="email"></ion-input>
+        <ion-label >Cell Number</ion-label>
+        <ion-input ></ion-input>
       </ion-item><br>
-      <ion-item>
-        <ion-label>FB User Name</ion-label>
-        <ion-input type="text"  name="fbUname"></ion-input>
-      </ion-item><br>
-      <ion-item>
-        <ion-label>Twitter Name</ion-label>
-        <ion-input  name="twitterName"></ion-input>
-      </ion-item><br>
-      <ion-item>
-        <ion-label>Instagram</ion-label>
-        <ion-input  name="instagram"></ion-input>
-      </ion-item><br>
-      <ion-item >
-          <ion-label>City/Town</ion-label>
-          <ion-select  name="cityTown">
-            <ion-option value="NY" >New York</ion-option>
+        <ion-item>
+          <ion-label >Password</ion-label>
+          <ion-input ></ion-input>
+        </ion-item><br>
+        <ion-item>
+          <ion-label > FB Username</ion-label>
+          <ion-input type="text" name="fbUserName" ></ion-input>
+        </ion-item><br>
+        <ion-item >
+          <ion-label >Instagram</ion-label>
+          <ion-input type="text" name="instagram" ></ion-input>
+        </ion-item><br>
+        <ion-item >
+          <ion-label >Twitter</ion-label>
+         <ion-input type="text" name="twitter" ></ion-input>
+       </ion-item><br>
+       <ion-item >
+         <ion-label >City / town</ion-label>
+          <ion-select  name="cityTown" >
+            <ion-option value="NY">New York</ion-option>
             <ion-option value="houstan">Houstan</ion-option>
             <ion-option value="washington">Washington</ion-option>
             <ion-option value="miami">Miami</ion-option>
             </ion-select>
-      </ion-item><br>
-      <ion-item >
-         <ion-label>Status</ion-label>
-         <ion-select  name="status">
-         <ion-option value="single" >Single</ion-option>
-         <ion-option value="married">Married</ion-option>
-         </ion-select>
-       </ion-item><br>
-
-       <ion-item>
-         <ion-label>Type</ion-label>
-         <ion-select  name="type">
-         <ion-option value="good">Good Dog</ion-option>
-         <ion-option value="bad">Bad Dog</ion-option>
-         </ion-select>
-       </ion-item>
+      </ion-item> <br>
+        <ion-item >
+          <ion-label fixed>Status</ion-label>
+          <ion-select  name="status" style="margin-left: 93px;" >
+          <ion-option value="single" selected>Single</ion-option>
+          <ion-option value="married">Married</ion-option>
+          </ion-select>
+        </ion-item> <br>
+        <ion-item >
+          <ion-label fixed>Type</ion-label>
+          <ion-select  name="type" style="margin-left: 80px;">
+          <ion-option value="good" selected>Good Dog</ion-option>
+          <ion-option value="bad">Bad Dog</ion-option>
+          </ion-select>
+        </ion-item><br><br><br>
+    </ion-list>
     </form>
 </ion-content>
