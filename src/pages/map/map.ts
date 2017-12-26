@@ -15,6 +15,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class MapPage {
 
+  lat: number = 33.5651;
+  lng: number = 73.0169;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

@@ -16,6 +16,7 @@ import { SearchPage } from '../pages/search/search';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TabsService } from '../pages/tabs.service';
 
+import { AgmCoreModule } from '@agm/core';
 @NgModule({
   declarations: [
     MyApp,
@@ -31,7 +32,10 @@ import { TabsService } from '../pages/tabs.service';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDRso-U5lKBIgImaDlU8ehe0KksfP9F1og'
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
